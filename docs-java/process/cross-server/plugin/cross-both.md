@@ -102,18 +102,17 @@ import TabItem from '@theme/TabItem';
 </a>
 
 <Tabs queryString="Geyser">
-  <TabItem value="good" label="好处">
+  <TabItem value="good" label="好处*">
 
-不需要再花费精力维护子服的 Geyser。
+    - 与 Floodgate 配合，可以实现 BE 玩家单端的识别。
+    - 相当一部分反作弊已经通过 Floodgate 来兼容 Geyser，例如 GrimAC。
+    - 皮肤等服务均已通过 Floodgate 实现。
 
   </TabItem>
 
-  <TabItem value="bad" label="坏处*">
+  <TabItem value="bad" label="坏处">
 
-    - 大部分反作弊可能并未兼容。
-    - 基岩版 UI 可能无法使用
-    - 不方便单端判断 BE 玩家
-    - 其他的潜在问题……
+    - 根据 Geyser 官方文档，更推荐将 Geyser 安装在代理端上。
 
   </TabItem>
 </Tabs>
